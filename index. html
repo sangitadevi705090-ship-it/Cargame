@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<title>3D Car Racing</title>
+<style>
+body{margin:0;background:#111;overflow:hidden}
+canvas{display:block;margin:0 auto}
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<script>
+// Aapka purana 3D car game ka code yahan paste karna hai
+// Abhi ke liye ye demo hai
+const canvas=document.getElementById('game');
+canvas.width=window.innerWidth;
+canvas.height=window.innerHeight;
+const ctx=canvas.getContext('2d');
+ctx.fillStyle='white';
+ctx.font='30px Arial';
+ctx.fillText('3D Car Racing Ready!',50,100);
+</script>
+</body>
+</html>
